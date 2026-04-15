@@ -604,6 +604,328 @@ const questionGroups = [
         "robots society ai services"
       )
     ]
+  },
+  {
+    paper: "SAMPLE",
+    section: "Strand 1 Additional Practice",
+    description: "20 additional sample questions from Strand 1: Introduction to Computing.",
+    items: [
+      mcq("Strand 1 Sample 1", "Which part of a computer system refers to the physical parts you can touch?", ["Hardware", "Software", "Data", "Procedure"], 0),
+      mcq("Strand 1 Sample 2", "Which feature is strongly linked with fifth-generation computers?", ["Artificial intelligence", "Vacuum tubes", "Punch cards", "Magnetic drums"], 0),
+      mcq("Strand 1 Sample 3", "Perceptual computing mainly allows a computer to respond to:", ["voice and gestures", "paper files only", "ink printing", "manual typing alone"], 0),
+      mcq("Strand 1 Sample 4", "Which of the following is an example of assistive technology?", ["Screen reader", "Flash disk", "Router", "Projector"], 0),
+      mcq("Strand 1 Sample 5", "Which device is used mainly for permanent storage of data?", ["Hard disk", "Monitor", "Keyboard", "Scanner"], 0),
+      mcq("Strand 1 Sample 6", "The main work of a device driver is to:", ["help the operating system control hardware", "create spreadsheets", "translate web pages", "print in color only"], 0),
+      mcq("Strand 1 Sample 7", "Cloud storage usually needs:", ["internet access", "a joystick", "a plotter", "a barcode"], 0),
+      mcq("Strand 1 Sample 8", "Poor sitting posture when using a computer can lead to:", ["back pain", "faster internet", "clearer printing", "better sound quality"], 0),
+      mcq("Strand 1 Sample 9", "Which safety rule is best in a computer lab?", ["Keep liquids away from devices", "Pull cables from the socket carelessly", "Cover the monitor vents", "Touch exposed wires"], 0),
+      mcq("Strand 1 Sample 10", "A solid-state drive is different from an HDD because it:", ["has no moving parts", "can only store pictures", "needs no electricity", "cannot be used in computers"], 0),
+      mcq("Strand 1 Sample 11", "E-waste refers to:", ["discarded electronic equipment", "healthy computer habits", "network cables", "website addresses"], 0),
+      mcq("Strand 1 Sample 12", "Which of the following is an input device?", ["QR code reader", "Monitor", "Speaker", "Printer"], 0),
+      mcq("Strand 1 Sample 13", "Which of these is a portable digital device?", ["Tablet", "Desktop tower only", "Server rack", "Large photocopier"], 0),
+      mcq("Strand 1 Sample 14", "Which software manages hardware and software resources in a computer?", ["Operating system", "Presentation package", "Antivirus definition file", "Database record"], 0),
+      mcq("Strand 1 Sample 15", "Network storage means storage that is:", ["shared across a network", "kept only on paper", "built into a mouse", "used only for audio"], 0),
+      essay(
+        "Strand 1 Sample 16",
+        `
+          <p>What is a computer system? State three components of a computer system.</p>
+        `,
+        `
+          <p>A <strong>computer system</strong> is the complete set of parts that work together to collect, process, store and output information. Three components are <strong>hardware</strong>, <strong>software</strong> and <strong>users</strong>. Data and procedures can also be counted as components.</p>
+        `,
+        "computer system components hardware software users"
+      ),
+      essay(
+        "Strand 1 Sample 17",
+        `
+          <p>Differentiate between assistive technology and adaptive technology. Give one example of each.</p>
+        `,
+        `
+          <p><strong>Assistive technology</strong> is a tool specially designed to help a person with a disability perform a task more easily, for example a <strong>screen reader</strong>. <strong>Adaptive technology</strong> is an existing tool that has been modified to suit the user's needs, for example an <strong>adapted keyboard</strong> with larger keys.</p>
+        `,
+        "assistive adaptive technology examples"
+      ),
+      essay(
+        "Strand 1 Sample 18",
+        `
+          <p>Explain two health issues that can come from poor computer use and state two safety precautions in the computer lab.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li>Two health issues are <strong>eye strain</strong> from staring at the screen for too long and <strong>back or neck pain</strong> from poor posture.</li>
+            <li>Two safety precautions are <strong>keeping liquids away from the devices</strong> and <strong>avoiding loose or exposed cables</strong>.</li>
+          </ul>
+        `,
+        "health issues safety precautions eye strain posture cables liquids"
+      ),
+      essay(
+        "Strand 1 Sample 19",
+        `
+          <p>Differentiate between HDD and SSD and state one advantage of each.</p>
+        `,
+        `
+          <p>An <strong>HDD</strong> stores data on spinning magnetic disks, while an <strong>SSD</strong> stores data on flash memory chips. One advantage of an HDD is that it is usually <strong>cheaper for large storage</strong>. One advantage of an SSD is that it is <strong>faster and more resistant to shock</strong>.</p>
+        `,
+        "hdd ssd difference advantage"
+      ),
+      essay(
+        "Strand 1 Sample 20",
+        `
+          <p>Explain what fifth-generation computers are and state what perceptual computing means.</p>
+        `,
+        `
+          <p><strong>Fifth-generation computers</strong> are modern computers associated with artificial intelligence, high processing power and smarter decision-making. <strong>Perceptual computing</strong> means a computer can respond to natural human input such as voice, gesture, movement or facial expression.</p>
+        `,
+        "fifth generation perceptual computing ai voice gesture"
+      )
+    ]
+  },
+  {
+    paper: "SAMPLE",
+    section: "Strand 2 Additional Practice",
+    description: "20 additional sample questions from Strand 2: Productivity Software.",
+    items: [
+      mcq("Strand 2 Sample 1", "Which application is best for typing letters and reports?", ["Word processor", "Web browser", "Media player", "Operating system"], 0),
+      mcq("Strand 2 Sample 2", "Changing the font size and color of text is called:", ["Formatting", "Editing", "Saving", "Scanning"], 0),
+      mcq("Strand 2 Sample 3", "The effect used when one slide changes to another is called:", ["Transition", "Filter", "Formula", "Folder"], 0),
+      mcq("Strand 2 Sample 4", "A spreadsheet formula usually begins with:", ["=", "#", "&", "%"], 0),
+      mcq("Strand 2 Sample 5", "Which spreadsheet function is used to find the average of values?", ["AVERAGE", "COUNTIF", "UPPER", "MERGE"], 0),
+      mcq("Strand 2 Sample 6", "The cell address B5 refers to:", ["column B, row 5", "row B, column 5", "book 5", "button 5"], 0),
+      mcq("Strand 2 Sample 7", "Filtering in a spreadsheet helps to:", ["show only records that meet a condition", "change every cell to bold", "print without margins", "draw a flowchart"], 0),
+      mcq("Strand 2 Sample 8", "Which package is most suitable for creating a brochure or flyer?", ["Desktop publishing software", "Operating system", "Antivirus software", "Device driver"], 0),
+      mcq("Strand 2 Sample 9", "Landscape page orientation means the page is:", ["wider than it is tall", "taller than it is wide", "always square", "meant only for photos"], 0),
+      mcq("Strand 2 Sample 10", "A header in a document appears at the:", ["top of the page", "bottom of the page", "center of a table only", "end of a paragraph only"], 0),
+      mcq("Strand 2 Sample 11", "Which chart type is commonly used to compare values in categories?", ["Bar chart", "Pie menu", "Slide sorter", "Mail merge"], 0),
+      mcq("Strand 2 Sample 12", "Which command combines selected table cells into one cell?", ["Merge cells", "Split text", "Paste special", "Track changes"], 0),
+      mcq("Strand 2 Sample 13", "Mail merge is useful when you want to:", ["send many letters with similar content to different people", "repair a keyboard", "compress a file", "protect a network with a firewall"], 0),
+      mcq("Strand 2 Sample 14", "An animation in presentation software mainly affects:", ["objects on a slide", "network cables", "printer cartridges", "folder names"], 0),
+      mcq("Strand 2 Sample 15", "Which tool helps to capture part of the computer screen into a document or slide?", ["Screenshot", "Spell checker", "Recycle bin", "Scroll bar"], 0),
+      essay(
+        "Strand 2 Sample 16",
+        `
+          <p>What is a word processor? State four features of a word processing application.</p>
+        `,
+        `
+          <p>A <strong>word processor</strong> is an application used to create, edit, format and print text documents. Four features are <strong>spell checking</strong>, <strong>text alignment</strong>, <strong>font formatting</strong> and <strong>inserting tables or pictures</strong>.</p>
+        `,
+        "word processor features spell check alignment font tables pictures"
+      ),
+      essay(
+        "Strand 2 Sample 17",
+        `
+          <p>Differentiate between editing and formatting with one example of each.</p>
+        `,
+        `
+          <p><strong>Editing</strong> means changing the content of a document, for example correcting a spelling mistake or deleting a wrong sentence. <strong>Formatting</strong> means changing the appearance of the content, for example making a heading bold or increasing the font size.</p>
+        `,
+        "editing formatting difference examples"
+      ),
+      essay(
+        "Strand 2 Sample 18",
+        `
+          <p>Explain how a student can calculate the total and average marks in a spreadsheet.</p>
+        `,
+        `
+          <p>The student should type the numbers into cells, select an empty cell for the total and enter a formula such as <code>=SUM(B2:B6)</code>. For the average, the student should use another cell and enter <code>=AVERAGE(B2:B6)</code>. The spreadsheet then calculates the results automatically.</p>
+        `,
+        "spreadsheet total average sum average formula"
+      ),
+      essay(
+        "Strand 2 Sample 19",
+        `
+          <p>What is desktop publishing? State two products that can be created with it.</p>
+        `,
+        `
+          <p><strong>Desktop publishing</strong> is the use of software to design and arrange text and pictures for attractive printed or digital publications. Two products that can be created are <strong>brochures</strong> and <strong>newsletters</strong>. Posters, flyers and magazines are also examples.</p>
+        `,
+        "desktop publishing products brochures newsletters flyers posters"
+      ),
+      essay(
+        "Strand 2 Sample 20",
+        `
+          <p>Differentiate between transitions and animations in presentation software and state one use of each.</p>
+        `,
+        `
+          <p><strong>Transitions</strong> are effects used when moving from one slide to another, while <strong>animations</strong> are effects applied to objects such as text or pictures on a single slide. A transition can make slide changes smooth, while an animation can help reveal points one by one during a presentation.</p>
+        `,
+        "transitions animations difference uses presentation"
+      )
+    ]
+  },
+  {
+    paper: "SAMPLE",
+    section: "Strand 3 Additional Practice",
+    description: "20 additional sample questions from Strand 3: Communication Networks.",
+    items: [
+      mcq("Strand 3 Sample 1", "Which network type normally covers a school computer laboratory?", ["LAN", "WAN", "MAN", "PAN"], 0),
+      mcq("Strand 3 Sample 2", "DNS is used to:", ["change domain names into IP addresses", "print web pages", "delete emails", "compress images"], 0),
+      mcq("Strand 3 Sample 3", "Which email field hides copied recipients from other receivers?", ["BCC", "CC", "To", "Reply"], 0),
+      mcq("Strand 3 Sample 4", "A PAN is best described as a network around:", ["one person and nearby personal devices", "an entire country", "many cities", "a school district only"], 0),
+      mcq("Strand 3 Sample 5", "In a star topology, devices are connected through a:", ["central device", "single ring only", "straight chain of printers", "satellite signal only"], 0),
+      mcq("Strand 3 Sample 6", "A URL is the:", ["address of a web resource", "type of keyboard", "measure of storage size", "name of a spreadsheet chart"], 0),
+      mcq("Strand 3 Sample 7", "Phishing is an attempt to:", ["trick people into giving personal information", "improve internet speed", "change a file extension", "create a strong password"], 0),
+      mcq("Strand 3 Sample 8", "A firewall mainly helps to:", ["block unauthorized access to a network or device", "increase monitor brightness", "format a document", "clean computer screens"], 0),
+      mcq("Strand 3 Sample 9", "Confidentiality in information security means data should be:", ["seen only by authorized people", "available only at night", "stored only on paper", "shared with everyone"], 0),
+      mcq("Strand 3 Sample 10", "The World Wide Web is:", ["a service that runs on the internet", "another name for a keyboard", "a type of printer", "a file extension"], 0),
+      mcq("Strand 3 Sample 11", "A blog is best described as:", ["a regularly updated website or web page", "a computer virus", "a spreadsheet row", "a storage device"], 0),
+      mcq("Strand 3 Sample 12", "Which of the following is a search engine?", ["Google", "PowerPoint", "Excel", "Publisher"], 0),
+      mcq("Strand 3 Sample 13", "Cyberbullying is the use of digital tools to:", ["harass or hurt others online", "design posters", "repair hardware", "convert files"], 0),
+      mcq("Strand 3 Sample 14", "A strong password should usually include:", ["letters, numbers and symbols", "only the user's name", "one repeated digit", "only lowercase letters"], 0),
+      mcq("Strand 3 Sample 15", "IPv6 was introduced mainly because:", ["more IP addresses were needed", "printers became slower", "web pages became shorter", "emails stopped working"], 0),
+      essay(
+        "Strand 3 Sample 16",
+        `
+          <p>What is a computer network? State two benefits of networking computers.</p>
+        `,
+        `
+          <p>A <strong>computer network</strong> is a group of connected computers and devices that can communicate and share resources. Two benefits are <strong>sharing files and printers</strong> and <strong>making communication faster</strong> between users.</p>
+        `,
+        "computer network benefits file sharing printer communication"
+      ),
+      essay(
+        "Strand 3 Sample 17",
+        `
+          <p>Differentiate between the internet and the World Wide Web.</p>
+        `,
+        `
+          <p>The <strong>internet</strong> is the worldwide system of connected computer networks. The <strong>World Wide Web</strong> is a collection of websites and web pages that use the internet. This means the web is one service that works on top of the internet.</p>
+        `,
+        "internet world wide web difference"
+      ),
+      essay(
+        "Strand 3 Sample 18",
+        `
+          <p>Explain the meanings of cyberbullying, cyberstalking and digital footprint.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li><strong>Cyberbullying</strong> is using digital platforms to insult, threaten or embarrass someone.</li>
+            <li><strong>Cyberstalking</strong> is repeatedly following, monitoring or threatening a person online.</li>
+            <li><strong>Digital footprint</strong> is the trail of information a person leaves behind while using digital tools and online services.</li>
+          </ul>
+        `,
+        "cyberbullying cyberstalking digital footprint meanings"
+      ),
+      essay(
+        "Strand 3 Sample 19",
+        `
+          <p>Describe the email fields To, CC, BCC and Subject.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li><strong>To</strong> is for the main receiver or receivers of the email.</li>
+            <li><strong>CC</strong> sends a copy to other receivers and their addresses can be seen by the others.</li>
+            <li><strong>BCC</strong> sends a hidden copy so other receivers do not see that address.</li>
+            <li><strong>Subject</strong> gives a short title showing what the email is about.</li>
+          </ul>
+        `,
+        "email to cc bcc subject fields"
+      ),
+      essay(
+        "Strand 3 Sample 20",
+        `
+          <p>Explain confidentiality, integrity and availability, and state two methods of protecting information.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li><strong>Confidentiality</strong> means only authorized users should see the data.</li>
+            <li><strong>Integrity</strong> means the data should remain correct and not be changed improperly.</li>
+            <li><strong>Availability</strong> means the data or service should be accessible when needed.</li>
+            <li>Two protection methods are <strong>using strong passwords</strong> and <strong>encrypting important data</strong>. Firewalls and backups also help.</li>
+          </ul>
+        `,
+        "confidentiality integrity availability protection methods passwords encryption"
+      )
+    ]
+  },
+  {
+    paper: "SAMPLE",
+    section: "Strand 4 Additional Practice",
+    description: "20 additional sample questions from Strand 4: Computational Thinking.",
+    items: [
+      mcq("Strand 4 Sample 1", "An algorithm is best described as:", ["a step-by-step method for solving a problem", "a type of monitor", "a network cable", "a file extension"], 0),
+      mcq("Strand 4 Sample 2", "Which flowchart symbol is used for decision making?", ["Decision", "Process", "Terminator", "Input/Output"], 0),
+      mcq("Strand 4 Sample 3", "A variable is used to store a value that:", ["can change", "must never change", "is always hidden", "cannot be displayed"], 0),
+      mcq("Strand 4 Sample 4", "A constant is a value that:", ["stays fixed", "changes every second", "is always negative", "must be printed"], 0),
+      mcq("Strand 4 Sample 5", "Which data type stores only True or False?", ["Boolean", "Float", "String", "Integer"], 0),
+      mcq("Strand 4 Sample 6", "Which operator gives the remainder after division?", ["mod", "+", "=", "/"], 0),
+      mcq("Strand 4 Sample 7", "Sequence in programming means instructions are carried out:", ["in the correct order", "only in circles", "without any output", "at random"], 0),
+      mcq("Strand 4 Sample 8", "Iteration means:", ["repeating a set of steps", "printing a document", "deleting all files", "drawing a table"], 0),
+      mcq("Strand 4 Sample 9", "An IDE is mainly used to:", ["write and test programs", "connect a router", "clean a keyboard", "play music"], 0),
+      mcq("Strand 4 Sample 10", "Which robot part collects information from the environment?", ["Sensor", "Actuator", "Speaker", "Cable"], 0),
+      mcq("Strand 4 Sample 11", "Which robot part causes movement or action?", ["Actuator", "Sensor", "Monitor", "Keyboard"], 0),
+      mcq("Strand 4 Sample 12", "An expert system mainly uses:", ["IF-THEN rules", "ink cartridges", "web browsers", "hard disks"], 0),
+      mcq("Strand 4 Sample 13", "Machine learning allows a computer to:", ["learn patterns from data", "become a monitor", "remove electricity", "turn into a printer"], 0),
+      mcq("Strand 4 Sample 14", "The controller in a robot mainly acts like the robot's:", ["brain", "paper tray", "screen stand", "power cable"], 0),
+      mcq("Strand 4 Sample 15", "According to BODMAS, in the expression 3 + 4 x 2, which operation is done first?", ["Multiplication", "Addition", "Subtraction", "Comparison"], 0),
+      essay(
+        "Strand 4 Sample 16",
+        `
+          <p>What is an algorithm? State three characteristics of a good algorithm.</p>
+        `,
+        `
+          <p>An <strong>algorithm</strong> is a step-by-step set of instructions for solving a problem. Three characteristics of a good algorithm are that it should be <strong>clear</strong>, <strong>logical</strong> and <strong>finite</strong>, meaning it should end after a number of steps.</p>
+        `,
+        "algorithm characteristics clear logical finite"
+      ),
+      essay(
+        "Strand 4 Sample 17",
+        `
+          <p>Name four common flowchart symbols and state the use of each.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li><strong>Terminator</strong>: shows the start or end of a process.</li>
+            <li><strong>Process</strong>: shows an action or calculation.</li>
+            <li><strong>Decision</strong>: shows a point where a yes/no choice is made.</li>
+            <li><strong>Input/Output</strong>: shows data entering or leaving the system.</li>
+          </ul>
+        `,
+        "flowchart symbols terminator process decision input output"
+      ),
+      essay(
+        "Strand 4 Sample 18",
+        `
+          <p>Differentiate between a variable and a constant and list four data types.</p>
+        `,
+        `
+          <p>A <strong>variable</strong> stores a value that can change, while a <strong>constant</strong> stores a fixed value. Four common data types are <strong>integer</strong>, <strong>float</strong>, <strong>string</strong> and <strong>Boolean</strong>.</p>
+        `,
+        "variable constant data types integer float string boolean"
+      ),
+      essay(
+        "Strand 4 Sample 19",
+        `
+          <p>Write pseudocode to find the larger of two numbers.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li>Start</li>
+            <li>Input firstNumber</li>
+            <li>Input secondNumber</li>
+            <li>If firstNumber &gt; secondNumber, display firstNumber</li>
+            <li>Else display secondNumber</li>
+            <li>Stop</li>
+          </ul>
+        `,
+        "pseudocode larger number comparison"
+      ),
+      essay(
+        "Strand 4 Sample 20",
+        `
+          <p>Explain three main parts of a robot and state two uses of artificial intelligence.</p>
+        `,
+        `
+          <ul class="clean-list">
+            <li><strong>Sensor</strong>: collects information from the surroundings.</li>
+            <li><strong>Controller</strong>: processes the information and makes decisions.</li>
+            <li><strong>Actuator</strong>: carries out movement or action.</li>
+            <li>Two uses of artificial intelligence are <strong>voice assistants</strong> and <strong>expert medical support systems</strong>.</li>
+          </ul>
+        `,
+        "robot parts sensor controller actuator artificial intelligence uses"
+      )
+    ]
   }
 ];
 
