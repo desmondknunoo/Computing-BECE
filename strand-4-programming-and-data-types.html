@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strand 4 Chapter 1 - Programming and Data Types</title>
+    <meta
+      name="description"
+      content="Detailed chapter on programming basics, data types, operators and number systems for BECE Computing."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="site-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">BC</span>
+          <span class="brand-copy">
+            <strong>BECE Computing Revision</strong>
+            <span>Strand 4 Chapter 1</span>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="index.html">Revision Guide</a>
+          <a href="strand-1.html">Strand 1</a>
+          <a href="strand-2.html">Strand 2</a>
+          <a href="strand-3.html">Strand 3</a>
+          <a href="strand-4.html">Strand 4</a>
+          <a href="questions.html">Question Bank</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header hero">
+        <article class="hero-card reveal">
+          <span class="eyebrow">Strand 4 - Chapter 1</span>
+          <h1>Programming and Data Types</h1>
+          <p class="lead">
+            This chapter builds the language of coding. If these basic terms are
+            clear, later topics such as algorithms and pseudocode become much
+            easier.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#terms">Start With Terms</a>
+            <a class="button button--secondary" href="strand-4-algorithms-and-flowcharts.html">Next Chapter</a>
+          </div>
+        </article>
+        <aside class="hero-panel reveal">
+          <h2>What You Must Know</h2>
+          <ol class="priority-list">
+            <li>Programming terminology</li>
+            <li>Variables and constants</li>
+            <li>Data types</li>
+            <li>Operators and operator precedence</li>
+            <li>Binary, decimal and hexadecimal basics</li>
+          </ol>
+        </aside>
+      </section>
+
+      <section class="section-block" id="terms">
+        <div class="card-grid">
+          <article class="section-card accent-deep reveal">
+            <h3>What Programming Means</h3>
+            <ul>
+              <li>A <strong>program</strong> is a set of instructions given to a computer.</li>
+              <li><strong>Programming</strong> is the act of writing those instructions to solve a problem.</li>
+              <li>A <strong>programming language</strong> is a formal way of writing instructions, for example Scratch or Python.</li>
+              <li>An <strong>IDE</strong> is a software environment that helps programmers write, test and manage code.</li>
+            </ul>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Key Terms</h3>
+            <table class="definition-table">
+              <thead>
+                <tr>
+                  <th>Term</th>
+                  <th>Meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Variable</td>
+                  <td>A named value that can change</td>
+                </tr>
+                <tr>
+                  <td>Constant</td>
+                  <td>A value meant to stay fixed</td>
+                </tr>
+                <tr>
+                  <td>Expression</td>
+                  <td>A combination of values and operators that gives a result</td>
+                </tr>
+                <tr>
+                  <td>Statement</td>
+                  <td>A full instruction such as input, output or assignment</td>
+                </tr>
+                <tr>
+                  <td>Operator</td>
+                  <td>A symbol used to perform an action</td>
+                </tr>
+                <tr>
+                  <td>Operand</td>
+                  <td>The value an operator works on</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="card-grid">
+          <article class="section-card accent-gold reveal">
+            <h3>Data Types</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Data Type</th>
+                  <th>What it stores</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Integer</td>
+                  <td>Whole numbers</td>
+                  <td><code>7</code>, <code>-1</code></td>
+                </tr>
+                <tr>
+                  <td>Float</td>
+                  <td>Decimal numbers</td>
+                  <td><code>1.28</code></td>
+                </tr>
+                <tr>
+                  <td>String</td>
+                  <td>Text with many characters</td>
+                  <td><code>"Ama"</code></td>
+                </tr>
+                <tr>
+                  <td>Character</td>
+                  <td>One letter, number or symbol</td>
+                  <td><code>A</code></td>
+                </tr>
+                <tr>
+                  <td>Boolean</td>
+                  <td>True or false value</td>
+                  <td><code>True</code>, <code>False</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="exam-strip">
+              <strong>Important note</strong>
+              A sentence becomes a Boolean only when it is treated as a true or
+              false statement. A normal text sentence in quotes is a string.
+            </div>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Variables and Constants</h3>
+            <ul>
+              <li>Use a variable when the value can change, for example a student's score.</li>
+              <li>Use a constant when the value should stay fixed, for example a pass mark.</li>
+              <li>Good variable names are clear and meaningful, such as <code>studentName</code> or <code>totalMarks</code>.</li>
+              <li>Avoid unclear names like <code>x</code> unless the meaning is obvious.</li>
+            </ul>
+            <div class="worked-example">
+              <h3>Example</h3>
+              <p><code>studentScore = 68</code> is a variable.</p>
+              <p><code>PASS_MARK = 50</code> is a constant.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="card-grid">
+          <article class="section-card accent-deep reveal">
+            <h3>Operators and Expressions</h3>
+            <ul>
+              <li><strong>Arithmetic operators:</strong> <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>mod</code>, <code>//</code></li>
+              <li><strong>Relational operators:</strong> <code>&lt;</code>, <code>&gt;</code>, <code>=</code>, <code>&lt;=</code>, <code>&gt;=</code></li>
+              <li><strong>Logical operators:</strong> AND, OR, NOT</li>
+            </ul>
+            <div class="worked-example">
+              <h3>Expression Example</h3>
+              <p>In <code>a + b</code>, the <strong>operator</strong> is <code>+</code> and the <strong>operands</strong> are <code>a</code> and <code>b</code>.</p>
+            </div>
+          </article>
+
+          <article class="section-card accent-gold reveal">
+            <h3>Operator Precedence</h3>
+            <p>Computers follow an order when solving expressions. A simple memory guide is BODMAS.</p>
+            <div class="worked-example">
+              <h3>Worked Example</h3>
+              <p><code>5//2 + 4*2^3 + 6 mod 4</code></p>
+              <ul>
+                <li><code>2^3 = 8</code></li>
+                <li><code>4*8 = 32</code></li>
+                <li><code>5//2 = 2</code></li>
+                <li><code>6 mod 4 = 2</code></li>
+                <li><strong>Total = 36</strong></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="tool-row">
+          <article class="tool-card reveal">
+            <h3>Number Systems</h3>
+            <ul class="tool-list">
+              <li><strong>Decimal</strong> uses digits 0 to 9.</li>
+              <li><strong>Binary</strong> uses only 0 and 1.</li>
+              <li><strong>Hexadecimal</strong> uses 0 to 9 and A to F.</li>
+              <li>Computers process data in binary.</li>
+            </ul>
+          </article>
+          <article class="worked-example reveal">
+            <h3>Decimal to Binary</h3>
+            <p>
+              Decimal <strong>13</strong> becomes binary
+              <strong>1101</strong> because
+              <code>13 = 8 + 4 + 1</code>.
+            </p>
+            <p>
+              Decimal <strong>10</strong> becomes binary
+              <strong>1010</strong>.
+            </p>
+          </article>
+        </div>
+        <div class="inline-actions">
+          <a class="page-jump" href="strand-4-algorithms-and-flowcharts.html">Next: algorithms and flowcharts</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Chapter 1 complete. Chapter 2 moves from programming terms into algorithm
+      logic and flowchart structure.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

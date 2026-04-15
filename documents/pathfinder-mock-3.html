@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Author" content="TECNO KG7h">
+  <meta name="LastAuthor" content="hp">
+  <meta name="CreationTime" content="2026-01-12T07:04:00Z">
+  <meta name="ModificationTime" content="2026-01-12T07:04:00Z">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 7.5px; font: 16.0px Times; color: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 7.5px; font: 14.0px 'Times New Roman'; color: #000000}
+    p.p3 {margin: 0.0px 0.0px 6.0px 7.5px; font: 14.0px 'Times New Roman'; color: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 4.9px; text-align: right; font: 26.0px 'Times New Roman'; color: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 40.5px; text-align: justify; font: 26.0px 'Times New Roman'; color: #000000; min-height: 30.0px}
+    p.p6 {margin: 0.0px 13.1px 0.0px 0.0px; text-align: center; font: 18.0px 'Times New Roman'; color: #000000; min-height: 21.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Times New Roman'; color: #000000; min-height: 21.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; color: #000000}
+    p.p9 {margin: 0.0px 5.0px 17.9px 0.0px; font: 18.0px 'Times New Roman'; color: #000000}
+    p.p10 {margin: 0.0px 0.0px 0.0px 5.3px; text-align: center; font: 16.0px 'Arial Black'; color: #ffffff}
+    p.p11 {margin: 0.0px 0.0px 0.0px 5.8px; text-align: center; font: 14.0px 'Times New Roman'; color: #000000}
+    p.p12 {margin: 0.0px 0.0px 0.0px 4.3px; font: 14.0px 'Times New Roman'; color: #000000}
+    p.p13 {margin: 0.0px 0.0px 0.0px 4.5px; font: 14.0px 'Times New Roman'; color: #000000}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'; color: #000000; min-height: 16.0px}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Times New Roman'}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'; min-height: 16.0px}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Times New Roman'; min-height: 16.0px}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'}
+    p.p20 {margin: 0.0px 0.0px 0.0px 66.0px; text-align: center; font: 16.0px 'Times New Roman'}
+    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Times New Roman'}
+    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Times New Roman'; min-height: 23.0px}
+    p.p26 {margin: 0.0px 0.0px 0.0px 72.0px; font: 16.0px 'Times New Roman'; min-height: 18.0px}
+    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 20.0px 'Times New Roman'; min-height: 23.0px}
+    p.p28 {margin: 0.0px 0.0px 0.0px 18.0px; text-align: center; font: 20.0px 'Times New Roman'; min-height: 23.0px}
+    p.p29 {margin: 0.0px 0.0px 0.0px 18.0px; text-align: center; font: 16.0px 'Times New Roman'}
+    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'; color: #000000}
+    p.p31 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; color: #000000; min-height: 18.0px}
+    p.p32 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'; color: #7030a0}
+    p.p33 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'; color: #ff0000}
+    p.p34 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'}
+    p.p35 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px}
+    p.p36 {margin: 0.0px 0.0px 8.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'}
+    p.p37 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'}
+    p.p38 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Times New Roman'; min-height: 15.0px}
+    p.p39 {margin: 0.0px 0.0px 0.0px 36.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px}
+    p.p40 {margin: 0.0px 0.0px 0.0px 36.0px; text-align: center; font: 12.0px 'Times New Roman'}
+    li.li14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Times New Roman'; color: #000000}
+    li.li37 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'}
+    span.s1 {font: 16.0px 'Times New Roman'}
+    span.s2 {font: 14.0px 'Times New Roman'}
+    span.s3 {font: 12.0px 'Times New Roman'}
+    span.s4 {text-decoration: underline}
+    table.t1 {border-collapse: collapse}
+    td.td1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1">BRIGHTSIDE MOCK EXAMINATIONS<span class="Apple-converted-space"> </span></p>
+        <p class="p2">COMPUTING<span class="Apple-converted-space"> </span></p>
+        <p class="p2">Essay and Objective<span class="Apple-converted-space"> </span></p>
+        <p class="p3">1hour 45mins<span class="Apple-converted-space"> </span></p>
+        <p class="p4"><span class="s1"><span class="Apple-converted-space"> </span></span>1&amp;2</p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><span class="Apple-converted-space">                                                                                               </span></p>
+<p class="p6"><span class="Apple-converted-space">                                                  </span></p>
+<p class="p6"><span class="Apple-converted-space">                                                                                                                                                        </span></p>
+<p class="p6"><br></p>
+<p class="p6"><br></p>
+<p class="p6"><br></p>
+<p class="p7"><br></p>
+<p class="p8"><span class="s2">Name:</span> _________________________________________________________________</p>
+<p class="p8">Index number: __________________________________________________________</p>
+<p class="p8"><span class="s2">Date:</span> __________________________________________________________________</p>
+<p class="p9"><span class="Apple-converted-space">                                         </span>NAM</p>
+<p class="p10">B.E.C.E 2026 PATHFINDER MOCK 3 – JANUARY, 2026<span class="Apple-converted-space"> </span></p>
+<p class="p11"><span class="s1"><span class="Apple-converted-space"> </span></span><b>COMPUTING [</b>100 marks<span class="s3">]<span class="Apple-converted-space"> </span></span></p>
+<p class="p12"><i>Write your </i><b><i>name</i></b><i> and </i><b><i>date </i></b><i>in </i><b><i>ink</i></b><i> in the spaces provided above<span class="Apple-converted-space"> </span></i></p>
+<p class="p13"><i><span class="Apple-converted-space"> </span>DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.</i></p>
+<ul class="ul1">
+  <li class="li14"><i>This booklet consists of two papers, Paper </i><b><i>2 </i></b><i>and paper </i><b><i>1</i></b></li>
+  <li class="li14"><i>Answer paper </i><b><i>2 </i></b><i>in the booklet and paper </i><b><i>1</i></b><i> in the objective test answer sheet<span class="Apple-converted-space"> </span></i></li>
+  <li class="li14"><i>Paper </i><b><i>2</i></b><i> will last 1hour.<span class="Apple-converted-space"> </span></i></li>
+  <li class="li14"><i>Paper </i><b><i>1</i></b><i> will last 45mins.</i></li>
+  <li class="li14"><b><i>Do not start paper 1 until you are told to do so</i></b></li>
+</ul>
+<p class="p15"><b><i></i></b><br></p>
+<p class="p15"><b><i></i></b><br></p>
+<p class="p15"><b><i></i></b><br></p>
+<p class="p15"><b><i></i></b><br></p>
+<p class="p15"><b><i></i></b><br></p>
+<p class="p16"><b>@ 2026 Brightside Examination Consult</b></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p16">For Examiners Use Only</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p16">Question Number</p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p16">Marks</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p16"><b>TOTAL</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p17"><b></b><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p17"><b></b><br></p>
+<p class="p18"><b></b><br></p>
+<p class="p19"><b>PAPER 2</b></p>
+<p class="p19"><b>ESSAY</b></p>
+<p class="p20"><b><span class="Apple-converted-space">                              </span>[60 MARKS]<span class="Apple-converted-space">                        </span>1 hour 15 minutes</b></p>
+<p class="p21"><b></b><br></p>
+<p class="p19">This paper is in two sections A and B. Answer Question 1 in Section A and any other three questions in Section B. Answer all the questions in the spaces provided in this question paper. At the end of the examination, you should submit the entire question paper to the invigilator.</p>
+<p class="p22"><br></p>
+<p class="p19"><b>SECTION A</b></p>
+<p class="p19"><b>[24 MARKS]</b></p>
+<p class="p19"><b>Answer Question 1 (compulsory)</b></p>
+<p class="p23"><b>1.<span class="Apple-converted-space"> </span></b></p>
+<p class="p23">(a) During a computer science practical lesson, a teacher asks the students to send a text message from Computer A to Computer B over a network. The message must pass through different layers of the OSI model before it reaches Computer B.</p>
+<p class="p21"><br></p>
+<p class="p23">i. Identify the layer of the OSI model responsible for converting the message into electrical signals or bits for transmission. <span class="Apple-converted-space">                                                                                                                                </span>(2 marks)</p>
+<p class="p24">________________________________________________________</p>
+<p class="p23">ii. Name the layer that ensures the message is delivered without errors.<span class="Apple-converted-space">                                            </span>(2 marks)<span class="Apple-converted-space"> </span></p>
+<p class="p24">________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">iii. Which layer is responsible for breaking the message into smaller segments for transmission? <span class="Apple-converted-space">    </span>(2 marks)</p>
+<p class="p24">________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">iv. Identify the layer that provides a user interface for typing and reading the message.<span class="Apple-converted-space">                    </span>(2 marks)</p>
+<p class="p24">________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">v. Explain why the OSI model is important in sending messages across a network.<span class="Apple-converted-space">                          </span>(2 marks)</p>
+<p class="p24">________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p23">(b) During a computer lesson, a student observes a device connected to the monitor of a computer as shown below. Use it to answer the questions that follow.</p>
+<p class="p26"><br></p>
+<p class="p21"><br></p>
+<p class="p23">i. Identify the device connected to the monitor.<span class="Apple-converted-space">                                          </span>(1 mark)</p>
+<p class="p24">________________________________________________________</p>
+<p class="p23">ii. Explain briefly the main function of this device when it is in use. <span class="Apple-converted-space">          </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">iii. State t<b><i>wo</i></b> benefits of using this device.<span class="Apple-converted-space">                                                  </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">iv. Mention <b><i>two</i></b> types of this device. <span class="Apple-converted-space">                                                          </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">(c) i. Identify <b><i>three</i></b> examples of wearable technology. <span class="Apple-converted-space">                                      </span>(3 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23"><span class="Apple-converted-space">     </span>ii. State f<b><i>our</i></b> ways in which wearable technologies are important in daily life.<span class="Apple-converted-space">            </span>(4 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p27"><br></p>
+<p class="p19"><b>SECTION B</b></p>
+<p class="p19"><b>[36 MARKS]</b></p>
+<p class="p19"><b>Answer only three questions from this section. All questions carry equal marks</b></p>
+<p class="p21"><b></b><br></p>
+<p class="p23"><b>2.<span class="Apple-converted-space"> </span></b></p>
+<p class="p23">a. Write the uses of the following basic ribbons in Publisher <span class="Apple-converted-space">                            </span>(4 marks)</p>
+<p class="p23">i. Home<span class="Apple-converted-space"> </span></p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">ii. Insert<span class="Apple-converted-space"> </span></p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">iii. Design</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p21"><span class="Apple-converted-space"> </span></p>
+<p class="p23">iv. Text Box<span class="Apple-converted-space"> </span></p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">b. Explain the following terminologies associated with the internet<span class="Apple-converted-space">                    </span>(4 marks)</p>
+<p class="p23">i. Broadband.</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">ii. Browser.</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">c. A student wants to prepare a slideshow for a school project to present to the class. List <b><i>four</i></b> examples of presentation software that the student can use. <span class="Apple-converted-space">                                            </span>(4 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23"><b>3.<span class="Apple-converted-space"> </span></b></p>
+<p class="p23">a. i. What are tables in word processing?<span class="Apple-converted-space">                                                            </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">ii. A student wants to insert a table in a Word document to organize student scores for a class report. How can the student insert a table? Outline the steps.<span class="Apple-converted-space">                                                      </span>(4 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">b. i. Give <b><i>two</i></b> examples of photo sharing sites.<span class="Apple-converted-space">                                                    </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">ii. A student uploads images of a school event online to share with classmates. Write down <b><i>two</i></b> advantages of using photo sharing sites<span class="Apple-converted-space">                                                                                    </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">c. A student wants to type quickly and accurately without constantly looking at the keyboard. What are <b><i>two </i></b>keyboarding techniques the student can use? <span class="Apple-converted-space">                                                  </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23"><b>5.<span class="Apple-converted-space"> </span></b></p>
+<p class="p23">a. i. What is perceptual computing?<span class="Apple-converted-space">                                                                  </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23">ii. What are <b><i>three</i></b> features of perceptual computing? <span class="Apple-converted-space">                                      </span>(3 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">b. i. State <b><i>three</i></b> purposes of device drivers. <span class="Apple-converted-space">                                                    </span>(3 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">ii . A student installs a new printer but it does not work until a driver is updated. Why is it important to update device drivers? <span class="Apple-converted-space">                                                                                                </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">c. What is a workstation? <span class="Apple-converted-space">                                                                                </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p23"><b>5.<span class="Apple-converted-space"> </span></b></p>
+<p class="p23">a. i. Explain the meaning of arithmetic logical operators. <span class="Apple-converted-space">                                  </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">ii. State <b><i>three</i></b> types of programming expressions. <span class="Apple-converted-space">                                            </span>(3 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">b. i. What is data security? <span class="Apple-converted-space">                                                                                </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p23">ii. What are <b><i>three</i></b> ways the student can protect the data? <span class="Apple-converted-space">                                </span>(3 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p25"><br></p>
+<p class="p23">c. A student saves a Word document and notices “.docx” at the end of the file name. What is a file name extension? <span class="Apple-converted-space">                                                                                                        </span>(2 marks)</p>
+<p class="p24">________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p class="p25"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p28"><br></p>
+<p class="p29"><b>PAPER 1</b></p>
+<p class="p29"><b><span class="Apple-converted-space"> </span>OBJECTIVE TEST<span class="Apple-converted-space"> </span></b></p>
+<p class="p29"><b>[40 MARKS]</b></p>
+<p class="p30"><i>Each question is followed by four options lettered </i><b><i>A</i></b><i> to </i><b><i>D</i></b><i>. Find out the correct option for each question and shade in pencil on your answer sheet the answer space which bears the same letter as the option you have chosen. Give only </i><b><i>one</i></b><i> answer to each question</i></p>
+<p class="p31"><i></i><br></p>
+<p class="p23">1. Ama receives repeated threatening messages from a classmate through WhatsApp and Instagram.</p>
+<p class="p23">This behaviour is best described as</p>
+<p class="p23">A. online security breach</p>
+<p class="p23">B. cyber harassment</p>
+<p class="p23">C. digital protection</p>
+<p class="p23">D. cyber intimidation</p>
+<p class="p21"><br></p>
+<p class="p23">2. A programmer runs a program and corrects mistakes that prevent it from working properly.</p>
+<p class="p23">This process is known as</p>
+<p class="p23">A. program testing</p>
+<p class="p23">B. error correction</p>
+<p class="p23">C. bug creation</p>
+<p class="p23">D. game coding</p>
+<p class="p21"><br></p>
+<p class="p23">3. A school decides to reduce energy use and electronic waste in its computer lab.</p>
+<p class="p23">This practice is known as</p>
+<p class="p23">A. ergonomic computing</p>
+<p class="p23">B. green technology</p>
+<p class="p23">C. safety computing</p>
+<p class="p23">D. environmental care</p>
+<p class="p21"><br></p>
+<p class="p23">4. A student plays a movie stored on a flash drive using a computer.</p>
+<p class="p23">The action performed by the computer is called</p>
+<p class="p23">A. data recording</p>
+<p class="p23">B. data caching</p>
+<p class="p23">C. data reading</p>
+<p class="p23">D. data writing</p>
+<p class="p21"><br></p>
+<p class="p23">5. While designing a flyer, Kwame removes unwanted edges of a picture without deleting it.</p>
+<p class="p23">The tool he uses is called</p>
+<p class="p23">A. erase tool</p>
+<p class="p23">B. image formatting</p>
+<p class="p23">C. picture cropping</p>
+<p class="p23">D. image shaping</p>
+<p class="p21"><br></p>
+<p class="p23">6. Scientists explain why quantum computers are faster than traditional computers.</p>
+<p class="p23">This is mainly because quantum bits</p>
+<p class="p23">A. exist in multiple states at the same time</p>
+<p class="p23">B. are physically larger than normal bits</p>
+<p class="p23">C. need constant electricity</p>
+<p class="p23">D. store only one value</p>
+<p class="p21"><br></p>
+<p class="p23">7. A technology student lists possible uses of smart watches.</p>
+<p class="p23">Which one is NOT a typical use?</p>
+<p class="p23">A. Tracking body activities</p>
+<p class="p23">B. Improving gaming experience</p>
+<p class="p23">C. Operating home devices</p>
+<p class="p23">D. Forecasting rainfall</p>
+<p class="p21"><br></p>
+<p class="p23">8. An office shares files through a storage system connected to its internal network.</p>
+<p class="p23">This system is known for</p>
+<p class="p23">A. storing data offline only</p>
+<p class="p23">B. depending on the internet always</p>
+<p class="p23">C. providing shared storage over a local network</p>
+<p class="p23">D. allowing access by one user only</p>
+<p class="p21"><br></p>
+<p class="p23">9. Kojo wants to insert a screenshot into a PowerPoint slide.</p>
+<p class="p23">Which tab should he use?</p>
+<p class="p23">A. Home</p>
+<p class="p23">B. Insert</p>
+<p class="p23">C. Design</p>
+<p class="p23">D. Review</p>
+<p class="p21"><br></p>
+<p class="p23">10. A social media user decides who can view personal posts.</p>
+<p class="p23">This action relates to</p>
+<p class="p23">A. public sharing</p>
+<p class="p23">B. platform restriction</p>
+<p class="p23">C. automatic posting</p>
+<p class="p23">D. privacy control</p>
+<p class="p21"><br></p>
+<p class="p23">11. A user wants to create a new publication in Desktop Publishing.</p>
+<p class="p23">Which option is NOT a valid way?</p>
+<p class="p23">A. Print-based publication</p>
+<p class="p23">B. Ready-made template</p>
+<p class="p23">C. Blank publication</p>
+<p class="p23">D. Highlighted template</p>
+<p class="p21"><br></p>
+<p class="p23">12. A user scrolls through a long document using a mouse.</p>
+<p class="p23">This is mainly done with the</p>
+<p class="p23">A. pointer</p>
+<p class="p23">B. click button</p>
+<p class="p23">C. scroll wheel</p>
+<p class="p23">D. sensitivity control</p>
+<p class="p21"><br></p>
+<p class="p23">13. While browsing a website, Samuel notices underlined words in blue that lead to other pages.</p>
+<p class="p23">These words are known as</p>
+<p class="p23">A. web titles</p>
+<p class="p23">B. icons</p>
+<p class="p23">C. hyperlinks</p>
+<p class="p23">D. captions</p>
+<p class="p23">14. A teacher wants students to understand the main function of an operating system.</p>
+<p class="p23">Which of the following best describes an operating system?</p>
+<p class="p23">A. A device used for input</p>
+<p class="p23">B. Software that manages computer hardware and software</p>
+<p class="p23">C. A storage device</p>
+<p class="p23">D. A programming language</p>
+<p class="p21"><br></p>
+<p class="p23">15. A presenter wants to summarize ideas using diagrams and visuals in PowerPoint.</p>
+<p class="p23">Which feature is best for this?</p>
+<p class="p23">A. Slide controller</p>
+<p class="p23">B. SmartArt graphics</p>
+<p class="p23">C. Speaker notes</p>
+<p class="p23">D. Slide arrangement</p>
+<p class="p21"><br></p>
+<p class="p23">16. An IT expert tests a system legally to find weaknesses before hackers do.</p>
+<p class="p23">This activity is known as</p>
+<p class="p23">A. data theft</p>
+<p class="p23">B. system disruption</p>
+<p class="p23">C. ethical hacking</p>
+<p class="p23">D. malware spreading</p>
+<p class="p21"><br></p>
+<p class="p23">17. A journalist wants to combine two table cells into one in a document.</p>
+<p class="p23">Which option should be used?</p>
+<p class="p23">A. Join rows</p>
+<p class="p23">B. Merge cells</p>
+<p class="p23">C. Expand column</p>
+<p class="p23">D. Adjust table style</p>
+<p class="p21"><br></p>
+<p class="p23">18. Someone illegally breaks into a computer network to cause harm.</p>
+<p class="p23">This act is called</p>
+<p class="p23">A. cyber harassment</p>
+<p class="p23">B. online tracking</p>
+<p class="p23">C. hacking</p>
+<p class="p23">D. phishing</p>
+<p class="p21"><br></p>
+<p class="p23">19. A computer lab is arranged to protect users’ eyes.</p>
+<p class="p23">Proper lighting helps to</p>
+<p class="p23">A. save power</p>
+<p class="p23">B. reduce glare and eye strain</p>
+<p class="p23">C. increase flickering</p>
+<p class="p23">D. place screens under bright light</p>
+<p class="p21"><br></p>
+<p class="p23">20. A user wants to divide a merged table cell back into parts.</p>
+<p class="p23">Which action should be taken?</p>
+<p class="p23">A. Right-click and select split cells</p>
+<p class="p23">B. Double-click the cell</p>
+<p class="p23">C. Press Ctrl + S</p>
+<p class="p23">D. Change font size</p>
+<p class="p21"><br></p>
+<p class="p23">21. A community adopts technology to improve business efficiency.</p>
+<p class="p23">Technology contributes by</p>
+<p class="p23">A. limiting small businesses</p>
+<p class="p23">B. improving productivity</p>
+<p class="p23">C. encouraging monopoly</p>
+<p class="p23">D. reducing innovation</p>
+<p class="p21"><br></p>
+<p class="p23">22. A user applies ready-made text formatting in PowerPoint.</p>
+<p class="p23">The best feature to use is</p>
+<p class="p23">A. WordArt</p>
+<p class="p23">B. Text effects</p>
+<p class="p23">C. Font colour</p>
+<p class="p23">D. Quick styles</p>
+<p class="p21"><br></p>
+<p class="p23">23. A manager lists discussion points that do not follow a specific order.</p>
+<p class="p23">The best method to use is</p>
+<p class="p23">A. numbering</p>
+<p class="p23">B. bullet points</p>
+<p class="p23">C. tables</p>
+<p class="p23">D. footnotes</p>
+<p class="p21"><br></p>
+<p class="p23">24. A presenter practices slide timing before the actual presentation.</p>
+<p class="p23">Which option is used?</p>
+<p class="p23">A. Presenter mode</p>
+<p class="p23">B. Slide display</p>
+<p class="p23">C. Rehearse timings</p>
+<p class="p23">D. Record slideshow</p>
+<p class="p21"><br></p>
+<p class="p23">25. A computer processes all data using a specific number system.</p>
+<p class="p23">That system is</p>
+<p class="p23">A. decimal</p>
+<p class="p23">B. octal</p>
+<p class="p23">C. binary</p>
+<p class="p23">D. hexadecimal</p>
+<p class="p23">26. A student learns about correct sitting posture at the computer.</p>
+<p class="p23">Which posture is NOT recommended?</p>
+<p class="p23">A. Sitting upright with support</p>
+<p class="p23">B. Feet flat on the floor</p>
+<p class="p23">C. Leaning forward with rounded back</p>
+<p class="p23">D. Back properly supported</p>
+<p class="p21"><br></p>
+<p class="p23">27. Fifth-generation computers use neural networks mainly to</p>
+<p class="p23">A. enable wireless connections</p>
+<p class="p23">B. store cloud data</p>
+<p class="p23">C. imitate human thinking patterns</p>
+<p class="p23">D. power peripheral devices</p>
+<p class="p21"><br></p>
+<p class="p23">28. Smart glasses display digital images on real surroundings.</p>
+<p class="p23">This feature is called</p>
+<p class="p23">A. virtual reality</p>
+<p class="p23">B. augmented reality</p>
+<p class="p23">C. 3D imaging</p>
+<p class="p23">D. hologram display</p>
+<p class="p21"><br></p>
+<p class="p23">29. A school stores files that can be accessed by computers within the same network.</p>
+<p class="p23">This storage type is</p>
+<p class="p23">A. primary storage</p>
+<p class="p23">B. secondary storage</p>
+<p class="p23">C. network storage</p>
+<p class="p23">D. holographic storage</p>
+<p class="p21"><br></p>
+<p class="p23">30. Data is stored using laser beams as three-dimensional images.</p>
+<p class="p23">This technology is known as</p>
+<p class="p23">A. holographic storage</p>
+<p class="p23">B. cloud storage</p>
+<p class="p23">C. smart cards</p>
+<p class="p23">D. network storage</p>
+<p class="p21"><br></p>
+<p class="p23">31. A family sets up a system to manage music and videos at home.</p>
+<p class="p23">The best technology is</p>
+<p class="p23">A. cloud server</p>
+<p class="p23">B. media server</p>
+<p class="p23">C. direct storage</p>
+<p class="p23">D. storage network</p>
+<p class="p23">32. A student discusses advantages of cloud storage.</p>
+<p class="p23">Which is NOT an advantage?</p>
+<p class="p23">A. Accessible anywhere</p>
+<p class="p23">B. Cannot be expanded</p>
+<p class="p23">C. Has security features</p>
+<p class="p23">D. Cost-effective</p>
+<p class="p23">33. A user compares SSD and HDD storage devices.</p>
+<p class="p23">One disadvantage of SSD is that it</p>
+<p class="p23">A. costs more</p>
+<p class="p23">B. writes faster</p>
+<p class="p23">C. has no moving parts</p>
+<p class="p23">D. uses less power</p>
+<p class="p23">34. A teacher lists examples of flash memory.</p>
+<p class="p23">Which one does NOT belong?</p>
+<p class="p23">A. Solid-state drive</p>
+<p class="p23">B. Memory card</p>
+<p class="p23">C. USB flash drive</p>
+<p class="p23">D. Hard disk drive</p>
+<p class="p21"><br></p>
+<p class="p23">35. A shop prints receipts using heat-sensitive paper.</p>
+<p class="p23">The printer used is</p>
+<p class="p23">A. inkjet</p>
+<p class="p23">B. thermal</p>
+<p class="p23">C. laser</p>
+<p class="p23">D. solid ink</p>
+<p class="p21"><br></p>
+<p class="p23">36. Products in supermarkets have vertical lines for identification.</p>
+<p class="p23">These lines are called</p>
+<p class="p23">A. QR codes</p>
+<p class="p23">B. barcodes</p>
+<p class="p23">C. item numbers</p>
+<p class="p23">D. RFID labels</p>
+<p class="p21"><br></p>
+<p class="p23">37. An object appears on a slide during a presentation.</p>
+<p class="p23">Which animation group controls this?</p>
+<p class="p23">A. Exit</p>
+<p class="p23">B. Entrance</p>
+<p class="p23">C. Emphasis</p>
+<p class="p23">D. Motion path</p>
+<p class="p23">38. A digital currency operates without banks or government control.</p>
+<p class="p23">This currency is</p>
+<p class="p23">A. electronic money</p>
+<p class="p23">B. mobile money</p>
+<p class="p23">C. transaction card</p>
+<p class="p23">D. bitcoin</p>
+<p class="p23">39. A user responds only to the sender of an email.</p>
+<p class="p23">This action is called</p>
+<p class="p23">A. reply</p>
+<p class="p23">B. forward</p>
+<p class="p23">C. reply all</p>
+<p class="p23">D. forward all</p>
+<p class="p21"><br></p>
+<p class="p23">40. A student learns about copyright protection.</p>
+<p class="p23">Which item is NOT protected?</p>
+<p class="p23">A. Books</p>
+<p class="p23">B. Audio recordings</p>
+<p class="p23">C. Ideas</p>
+<p class="p23">D. Software</p>
+<p class="p21"><br></p>
+<p class="p21"><br></p>
+<p class="p21"><br></p>
+<p class="p22"><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p32"><b>BRIGHTSIDE EXAMS CONSULT</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p33"><b>BECE 2026 PATHFINDER MOCK 3 – JANUARY, 2026</b></p>
+        <p class="p32">COMPUTING<span class="Apple-converted-space"> </span></p>
+        <p class="p34">FINAL MARKING SCHEME</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p35"><br></p>
+<p class="p36">SECTION A (OBJECTIVE TEST) [40marks]</p>
+<p class="p34"><span class="s4"><b>PAPER 1</b></span></p>
+<p class="p34"><span class="s4"><b>(40 MARKS)</b></span></p>
+<p class="p35"><span class="s4"><b></b></span><br></p>
+<p class="p35"><span class="s4"><b></b></span><br></p>
+<p class="p37">1. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">2. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">3. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">4. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">5. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">6. A</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">7. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">8. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">9. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">10. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">11. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">12. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">13. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">14. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">15. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">16. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">17. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">18. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">19. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">20. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">21. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">22. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">23. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">24. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">25. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">26. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">27. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">28. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">29. C</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">30. A</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">31. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">32. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">33. A</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">34. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">35. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">36. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">37. B</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">38. D</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">39. A</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">40. C</p>
+<p class="p35"><br></p>
+<p class="p34"><span class="s4"><b>PAPER 2</b></span></p>
+<p class="p34"><span class="s4"><b>(60 MARKS)</b></span></p>
+<p class="p35"><span class="s4"><b></b></span><br></p>
+<p class="p37"><b>Question 1</b></p>
+<p class="p37">(a) i. Physical Layer <span class="Apple-converted-space">                    </span>2 marks</p>
+<p class="p37">ii. Data Link Layer<span class="Apple-converted-space">                        </span>2 marks</p>
+<p class="p37">iii. Transport Layer <span class="Apple-converted-space">                      </span>2 marks</p>
+<p class="p37">iv. Application Layer <span class="Apple-converted-space">                    </span>2 marks</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">v. The OSI model organizes communication into layers to ensure proper and standardized data transmission across devices<span class="Apple-converted-space">                                  </span>2 marks<span class="Apple-converted-space"> </span></p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37">(b) i. <span class="s4"><b>Device connected to the monitor</b></span>:<span class="Apple-converted-space"> </span></p>
+<ul class="ul1">
+  <li class="li37">Document holder<span class="Apple-converted-space">                                </span>1 mark<span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Main function:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Holds papers or documents upright and at eye level for easy reference while typing or working on the computer <span class="Apple-converted-space">                    </span>2 marks<span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>iii. Two benefits of using the device:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Reduces neck and eye strain by keeping documents at a comfortable viewing angle</li>
+  <li class="li37">Improves typing speed and accuracy because documents are easy to see</li>
+  <li class="li37">Additional answer: Keeps the workspace organized</li>
+</ul>
+<p class="p34"><span class="Apple-converted-space">  </span>2 marks @ 1 mark each for any 2</p>
+<p class="p38"><br></p>
+<p class="p37"><span class="s4"><b>iv. Two types of document holders:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Clip-on document holder (attached to monitor)</li>
+  <li class="li37">Free-standing or desktop document holder <span class="Apple-converted-space">                                    </span>2 marks</li>
+</ul>
+<p class="p35"><span class="Apple-converted-space"> </span></p>
+<p class="p37"><span class="s4"><b>(c) (i) Three examples of wearable technology</b></span></p>
+<ul class="ul1">
+  <li class="li37">Smartwatch</li>
+  <li class="li37">Fitness tracker (or activity tracker)</li>
+  <li class="li37">Virtual reality (VR) headset</li>
+  <li class="li37">Smart glasses,<span class="Apple-converted-space"> </span></li>
+  <li class="li37">Bluetooth earpiece <span class="Apple-converted-space">                          </span>3 marks @ 1 mark each for any 3</li>
+</ul>
+<p class="p39"><span class="Apple-converted-space"> </span></p>
+<p class="p37"><span class="s4"><b>(ii) Four ways wearable technologies are important in daily life</b></span></p>
+<ul class="ul1">
+  <li class="li37">Monitor health and fitness (e.g., track steps, heart rate)</li>
+  <li class="li37">Provide notifications and reminders from a smartphone</li>
+  <li class="li37">Assist in communication (e.g., smart glasses, earpieces)</li>
+  <li class="li37">Enhance safety and security (e.g., fall detection, GPS tracking)</li>
+  <li class="li37">Navigation assistance <span class="Apple-converted-space">                                    </span>4 marks @ 1 mark each for any 4</li>
+</ul>
+<p class="p39"><br></p>
+<p class="p38"><br></p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><b>Question 2</b></p>
+<p class="p37"><span class="s4"><b>a. Uses of the Ribbons in Publisher</b></span></p>
+<p class="p37"><b>i. Home</b> – Used for formatting text, changing font style, size, bold, italic, underline, alignment, bullets, and numbering.</p>
+<p class="p37"><b>ii. Insert</b> – Used to add pictures, shapes, charts, tables, WordArt, and objects into a publication.</p>
+<p class="p35"><br></p>
+<p class="p37"><b>iii. Design</b> – Used to apply publication themes, page background, color schemes, and overall layout designs.</p>
+<p class="p35"><br></p>
+<p class="p37"><b>iv. Text Box</b> – Used to insert text boxes to hold text anywhere on the page.</p>
+<p class="p34">4 marks @ 1 mark each<span class="Apple-converted-space"> </span></p>
+<p class="p35"><br></p>
+<p class="p37"><b>b. Internet Terminologies</b></p>
+<p class="p37"><b>i. Broadband</b> – High-speed internet connection that allows fast data transfer and continuous streaming.</p>
+<p class="p37"><b>ii. Browser</b> – Software application used to access and view web pages on the internet.</p>
+<p class="p40">4 marks @ 2 marks each</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>c. i. Examples of presentation software:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Microsoft PowerPoint</li>
+  <li class="li37">Google Slides</li>
+  <li class="li37">Prezi</li>
+  <li class="li37">LibreOffice Impress</li>
+</ul>
+<ul class="ul1">
+  <li class="li37">Canva,<span class="Apple-converted-space">                                              </span>4 marks @ 1 mark each for any 4</li>
+</ul>
+<p class="p39"><br></p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><b>Question 3</b></p>
+<p class="p35"><b></b><br></p>
+<p class="p37"><span class="s4"><b>a. i. Definition of Tables in Word Processing <span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">Tables are a way of organizing data into rows and columns for easy reading and formatting.<span class="Apple-converted-space">    </span>2 marks</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Steps to insert a table:</b></span></p>
+<p class="p35"><span class="s4"><b></b></span><br></p>
+<p class="p37">1. Place the cursor where the table is required.</p>
+<p class="p37">2. Click on the Insert tab.</p>
+<p class="p37">3. Select Table.</p>
+<p class="p37">4. Choose the number of rows and columns required. <span class="Apple-converted-space">          </span>4 marks @ 1 mark each step</p>
+<p class="p35"><span class="Apple-converted-space"> </span></p>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>b. i. Examples Photo Sharing Sites</b></span></p>
+<ul class="ul1">
+  <li class="li37">Instagram</li>
+  <li class="li37">Flickr</li>
+  <li class="li37">Pinterest,<span class="Apple-converted-space"> </span></li>
+  <li class="li37">Imgur,<span class="Apple-converted-space"> </span></li>
+</ul>
+<ul class="ul1">
+  <li class="li37">Google Photos<span class="Apple-converted-space">                        </span>2 marks @ 1 mark each for any 2</li>
+</ul>
+<p class="p39"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Advantages:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Allows sharing images with friends and family.</li>
+  <li class="li37">Enables collaboration and feedback on photos.</li>
+</ul>
+<ul class="ul1">
+  <li class="li37">Stores photos online safely<span class="Apple-converted-space">                                </span>2 marks @ 1 mark each for any 2</li>
+</ul>
+<p class="p39"><br></p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>c. i. Examples Keyboarding Techniques</b></span></p>
+<ul class="ul1">
+  <li class="li37">Touch typing</li>
+</ul>
+<ul class="ul1">
+  <li class="li37">Correct finger placement<span class="Apple-converted-space">                          </span>2 marks @ 1 mark each<span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><b>Question 4</b></p>
+<p class="p37"><span class="s4"><b>a. i. Definition of Perceptual Computing <span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">Perceptual computing allows users to interact with computers using natural methods like gestures, voice, and facial recognition. <span class="Apple-converted-space">                  </span>2 marks</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Features:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Gesture recognition</li>
+  <li class="li37">Voice commands</li>
+  <li class="li37">Motion sensing</li>
+  <li class="li37">Eye tracking,<span class="Apple-converted-space"> </span></li>
+</ul>
+<ul class="ul1">
+  <li class="li37">Facial expression recognition<span class="Apple-converted-space">              </span>3 marks @ 1 mark each for any 3</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>b. i. Purposes of Device Drivers<span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">Enables communication between hardware and software.</li>
+  <li class="li37">Allows operating system to control devices.</li>
+  <li class="li37">Ensures device functions correctly.</li>
+  <li class="li37">Installs device settings</li>
+  <li class="li37">Improves device performance<span class="Apple-converted-space">                          </span>3 marks @ 1 mark each for any 3</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Importance of updating drivers:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Fixes bugs and errors in the device.</li>
+  <li class="li37">Improves performance and compatibility with software.</li>
+  <li class="li37">Adds new features</li>
+  <li class="li37">Enhances security<span class="Apple-converted-space">                                </span>2 marks @ 1 mark each for any 2</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>c. i. Definition of Workstations<span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">A workstation is a high-performance computer designed for technical or scientific applications requiring more power than a standard PC.<span class="Apple-converted-space">                      </span>2 marks</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p37"><b>Question 5</b></p>
+<p class="p37"><span class="s4"><b>a. i. Definition of Arithmetic Logical Operators<span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">Arithmetic logical operators are symbols used in programming to perform mathematical calculations (e.g., +, –, ×, ÷) and comparisons. <span class="Apple-converted-space">                </span>2 marks</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Types of programming expressions:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Arithmetic expressions</li>
+  <li class="li37">Relational expressions</li>
+  <li class="li37">Logical expressions<span class="Apple-converted-space">                                </span>3 marks @ 1 mark each<span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>b. i. Definition of Data Security<span class="Apple-converted-space"> </span></b></span></p>
+<ul class="ul1">
+  <li class="li37">Data security is the protection of digital information from unauthorized access, corruption, or theft. <span class="Apple-converted-space"> </span></li>
+</ul>
+<p class="p40">2 marks</p>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>ii. Ways to protect data:</b></span></p>
+<ul class="ul1">
+  <li class="li37">Use strong passwords</li>
+  <li class="li37">Install antivirus software</li>
+  <li class="li37">Backup data regularly</li>
+  <li class="li37">Use encryption</li>
+  <li class="li37">Restrict access to authorized users <span class="Apple-converted-space">                        </span>3 marks @ 1 mark each for any 3</li>
+</ul>
+<p class="p35"><br></p>
+<p class="p37"><span class="s4"><b>c. Definition of File Name Extension</b></span></p>
+<p class="p34">A file name extension is a suffix at the end of a file name indicating the type of file (e.g., .docx, .jpg, .pdf).<span class="Apple-converted-space">   </span></p>
+<p class="p34">2 marks</p>
+<p class="p35"><br></p>
+<p class="p35"><br></p>
+<p class="p38"><br></p>
+</body>
+</html>

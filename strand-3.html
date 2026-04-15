@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strand 3 Deep Dive - Communication Networks</title>
+    <meta
+      name="description"
+      content="Detailed revision page for BECE Computing Strand 3: Communication Networks."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="site-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">BC</span>
+          <span class="brand-copy">
+            <strong>BECE Computing Revision</strong>
+            <span>Strand 3 deep dive</span>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="index.html">Revision Guide</a>
+          <a href="strand-1.html">Strand 1</a>
+          <a href="strand-2.html">Strand 2</a>
+          <a href="strand-3.html">Strand 3</a>
+          <a href="strand-4.html">Strand 4</a>
+          <a href="questions.html">Question Bank</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header hero">
+        <article class="hero-card reveal">
+          <span class="eyebrow">Strand 3 Hub</span>
+          <h1>Communication Networks, split into chapters.</h1>
+          <p class="lead">
+            This hub page gives the whole-strand overview. The detailed reading
+            is now split across chapter pages so the content is longer,
+            scrollable and easier to study in parts.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="strand-3-networks.html">Start Chapter 1</a>
+            <a class="button button--secondary" href="questions.html">Practice Questions</a>
+          </div>
+        </article>
+
+        <aside class="hero-panel reveal">
+          <h2>What the Syllabus Builds</h2>
+          <ol class="priority-list">
+            <li><strong>Basic 7:</strong> topologies, network types, email features, VLEs, web page evaluation, security basics.</li>
+            <li><strong>Basic 8:</strong> OSI model, internet vs web, IP and DNS, photo/video sharing, threats and protections, search techniques.</li>
+            <li><strong>Basic 9:</strong> e-commerce, cashless society, eLearning, social media risks, cyberbullying, hacking techniques and blogs.</li>
+          </ol>
+          <div class="panel-note">
+            Strong Strand 3 answers often compare two terms clearly:
+            internet vs web, browser vs search engine, CC vs BCC, or threat vs
+            protection.
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-block">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Chapter Set</span>
+            <h2>The Four Strand 3 Pages</h2>
+            <p>
+              Use the chapter pages for the full lessons, then come back here
+              when you need a whole-strand recap.
+            </p>
+          </div>
+        </div>
+        <div class="card-grid">
+          <article class="study-card reveal">
+            <span class="weight weight--high">Chapter 1</span>
+            <strong>Computer Networks</strong>
+            <p>Network hardware, topologies, PAN-LAN-MAN-WAN, OSI, IP and DNS.</p>
+            <a class="button button--secondary" href="strand-3-networks.html">Open Chapter</a>
+          </article>
+          <article class="study-card reveal">
+            <span class="weight weight--high">Chapter 2</span>
+            <strong>Internet, Social Media and Email</strong>
+            <p>Browser, search engine, URL, social media types, email features, benefits and risks.</p>
+            <a class="button button--secondary" href="strand-3-internet-and-email.html">Open Chapter</a>
+          </article>
+          <article class="study-card reveal">
+            <span class="weight weight--high">Chapter 3</span>
+            <strong>Security and Web Technologies</strong>
+            <p>Security principles, threats, cyberbullying, safe search, website evaluation, VLEs and blogs.</p>
+            <a class="button button--secondary" href="strand-3-security-and-web.html">Open Chapter</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="network-basics">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Sub-strand 1</span>
+            <h2>Computer Networks</h2>
+            <p>
+              A network exists when devices are linked together so they can
+              share data, software, storage or other resources.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="section-card accent-deep reveal">
+            <h3>Key Hardware and Terms</h3>
+            <ul>
+              <li><strong>Server:</strong> a computer that provides services or resources to other computers.</li>
+              <li><strong>Client:</strong> a computer that requests services from a server.</li>
+              <li><strong>Switch:</strong> connects devices inside a local network and sends data to the correct device.</li>
+              <li><strong>Hub:</strong> sends incoming data to all connected devices.</li>
+              <li><strong>Router:</strong> connects different networks together.</li>
+              <li><strong>Modem:</strong> helps a network connect to an internet service through signal conversion.</li>
+            </ul>
+            <div class="exam-strip">
+              <strong>Fast memory hook</strong>
+              Switch = smarter local traffic. Router = traffic between
+              networks. Modem = internet connection signal conversion.
+            </div>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Network Topologies</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Topology</th>
+                  <th>Main Shape</th>
+                  <th>Important Point</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Bus</td>
+                  <td>One main cable</td>
+                  <td>Simple, but a main cable problem can affect the whole network.</td>
+                </tr>
+                <tr>
+                  <td>Star</td>
+                  <td>All devices connect to one central device</td>
+                  <td>Easy to manage, but if the central device fails, the network is badly affected.</td>
+                </tr>
+                <tr>
+                  <td>Ring</td>
+                  <td>Devices form a closed loop</td>
+                  <td>Data moves around the ring in order.</td>
+                </tr>
+                <tr>
+                  <td>Mesh</td>
+                  <td>Many direct links between devices</td>
+                  <td>Very reliable, but more expensive and complex.</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="section-card accent-gold reveal">
+            <h3>Types of Networks</h3>
+            <table class="definition-table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Meaning</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PAN</td>
+                  <td>Personal Area Network</td>
+                  <td>Phone and smart watch</td>
+                </tr>
+                <tr>
+                  <td>LAN</td>
+                  <td>Local Area Network</td>
+                  <td>School lab or office</td>
+                </tr>
+                <tr>
+                  <td>MAN</td>
+                  <td>Metropolitan Area Network</td>
+                  <td>One city network</td>
+                </tr>
+                <tr>
+                  <td>WAN</td>
+                  <td>Wide Area Network</td>
+                  <td>The internet</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="worked-example">
+              <h3>One Good Sentence</h3>
+              <p>
+                A <strong>LAN</strong> connects devices in a small area, whereas
+                a <strong>WAN</strong> connects devices across very large
+                distances.
+              </p>
+            </div>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Internet, Web, IP and DNS</h3>
+            <ul>
+              <li><strong>Internet:</strong> the worldwide network of networks.</li>
+              <li><strong>World Wide Web:</strong> websites and web pages accessed through the internet.</li>
+              <li><strong>IP address:</strong> a numeric address that identifies a device.</li>
+              <li><strong>DNS:</strong> changes names like <em>example.com</em> into IP addresses, just like a phonebook connects names to numbers.</li>
+              <li><strong>IPv4</strong> uses shorter numeric addresses. <strong>IPv6</strong> was introduced to support many more devices.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">OSI Focus</span>
+            <h2>Data Communication and the OSI Model</h2>
+            <p>
+              The OSI model is a common exam topic because it explains how
+              communication is organised into layers.
+            </p>
+          </div>
+        </div>
+        <div class="tool-row">
+          <article class="worked-example reveal">
+            <h3>Layers You Should Know Safely</h3>
+            <table class="definition-table">
+              <thead>
+                <tr>
+                  <th>Layer</th>
+                  <th>Exam-safe function</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Application</td>
+                  <td>User-facing services like typing or reading a message</td>
+                </tr>
+                <tr>
+                  <td>Transport</td>
+                  <td>Breaks data into segments and manages delivery</td>
+                </tr>
+                <tr>
+                  <td>Data Link</td>
+                  <td>Checks frames and handles local delivery errors</td>
+                </tr>
+                <tr>
+                  <td>Physical</td>
+                  <td>Converts data into bits or signals for transmission</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+          <article class="tool-card reveal">
+            <h3>Why the OSI Model Matters</h3>
+            <ul class="tool-list">
+              <li>It divides communication into simpler parts.</li>
+              <li>It helps different hardware and software work together.</li>
+              <li>It makes troubleshooting easier because each layer has a role.</li>
+              <li>It supports standard communication between devices from different makers.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="internet-social">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Sub-strand 2</span>
+            <h2>Internet, Social Media and Email</h2>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="section-card accent-gold reveal">
+            <h3>Browser, Search Engine and URL</h3>
+            <ul>
+              <li><strong>Browser:</strong> software for opening web pages, such as Chrome or Firefox.</li>
+              <li><strong>Search engine:</strong> a web tool for finding information, such as Google or Bing.</li>
+              <li><strong>URL:</strong> the address of a resource on the web.</li>
+            </ul>
+            <div class="worked-example">
+              <h3>Compare These Correctly</h3>
+              <p>
+                A browser opens pages. A search engine helps you find pages. A
+                URL is the address of the page.
+              </p>
+            </div>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Social Media Types</h3>
+            <ul>
+              <li><strong>Social networking:</strong> Facebook, LinkedIn, WhatsApp.</li>
+              <li><strong>Microblogging:</strong> X or Twitter, Tumblr.</li>
+              <li><strong>Photo sharing:</strong> Instagram, Snapchat, Pinterest.</li>
+              <li><strong>Video sharing:</strong> YouTube, Vimeo, Facebook Live.</li>
+            </ul>
+            <div class="exam-strip">
+              <strong>Benefits</strong>
+              Fast communication, publicity, collaboration, business promotion
+              and learning.
+            </div>
+            <div class="exam-strip">
+              <strong>Risks</strong>
+              Cyberbullying, privacy breaches, identity theft, scams,
+              misinformation and addiction.
+            </div>
+          </article>
+
+          <article class="section-card accent-deep reveal">
+            <h3>Email Features</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Attachment</td>
+                  <td>Adds a file to an email</td>
+                </tr>
+                <tr>
+                  <td>Address Book</td>
+                  <td>Stores contact details</td>
+                </tr>
+                <tr>
+                  <td>Reply</td>
+                  <td>Responds only to the sender</td>
+                </tr>
+                <tr>
+                  <td>Reply All</td>
+                  <td>Responds to everyone copied in the email</td>
+                </tr>
+                <tr>
+                  <td>Forward</td>
+                  <td>Sends the email to another person</td>
+                </tr>
+                <tr>
+                  <td>CC / BCC</td>
+                  <td>CC is visible to all recipients; BCC hides copied recipients</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="security">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Sub-strand 3</span>
+            <h2>Information Security</h2>
+            <p>
+              This section moves from basic security ideas in Basic 7 to more
+              specific threats and online behaviour in Basic 9.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="section-card accent-teal reveal">
+            <h3>The CIA Triad</h3>
+            <ul>
+              <li><strong>Confidentiality:</strong> data is protected from unauthorised viewing.</li>
+              <li><strong>Integrity:</strong> data stays correct and trustworthy.</li>
+              <li><strong>Availability:</strong> data or services are accessible when needed.</li>
+            </ul>
+            <div class="worked-example">
+              <h3>Simple Examples</h3>
+              <ul>
+                <li>Confidentiality: password-protected student records</li>
+                <li>Integrity: preventing secret editing of exam scores</li>
+                <li>Availability: school portal stays online during registration</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="section-card accent-gold reveal">
+            <h3>Threats and Protection Methods</h3>
+            <table class="definition-table">
+              <thead>
+                <tr>
+                  <th>Threat</th>
+                  <th>Meaning</th>
+                  <th>Protection</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Interruption</td>
+                  <td>Service or data becomes unavailable</td>
+                  <td>Backup, maintenance, redundancy</td>
+                </tr>
+                <tr>
+                  <td>Interception</td>
+                  <td>Data is seen by the wrong person</td>
+                  <td>Encryption, authentication</td>
+                </tr>
+                <tr>
+                  <td>Modification</td>
+                  <td>Data is changed without permission</td>
+                  <td>Access control, integrity checks</td>
+                </tr>
+                <tr>
+                  <td>Fabrication</td>
+                  <td>False data is created or inserted</td>
+                  <td>Authorisation, auditing, validation</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="section-card accent-deep reveal">
+            <h3>Legal and Social Issues Online</h3>
+            <ul>
+              <li><strong>Copyright:</strong> ownership of original creative work.</li>
+              <li><strong>Patent:</strong> legal protection for inventions.</li>
+              <li><strong>Trademark:</strong> symbol, name or sign that identifies a brand.</li>
+              <li><strong>Piracy:</strong> illegal copying or use of protected material.</li>
+              <li><strong>Cyberbullying:</strong> hurting people online repeatedly.</li>
+              <li><strong>Cyberstalking:</strong> repeated harmful tracking or harassment online.</li>
+              <li><strong>Digital footprint:</strong> trace of what you do online.</li>
+              <li><strong>Digital shadow:</strong> data about you collected by others online.</li>
+            </ul>
+          </article>
+
+          <article class="section-card accent-teal reveal">
+            <h3>Common Hacking Techniques</h3>
+            <ul>
+              <li>Phishing</li>
+              <li>Keylogging</li>
+              <li>Denial of Service attack</li>
+              <li>Eavesdropping</li>
+              <li>Malware infection</li>
+              <li>Password cracking</li>
+            </ul>
+            <div class="exam-strip">
+              <strong>Prevention basics</strong>
+              Use strong passwords, think before clicking links, update software,
+              use antivirus, back up data and never share sensitive data carelessly.
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="web-tech">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Sub-strand 4</span>
+            <h2>Web Technologies and Search Skills</h2>
+          </div>
+        </div>
+
+        <div class="tool-row">
+          <article class="tool-card reveal">
+            <h3>Effective Search Techniques</h3>
+            <ul class="tool-list">
+              <li>Use exact spelling and clear keywords.</li>
+              <li>Use phrases instead of one weak word.</li>
+              <li><strong>AND</strong> narrows the search.</li>
+              <li><strong>OR</strong> widens the search.</li>
+              <li><strong>NOT</strong> removes unwanted terms.</li>
+              <li>Compare results from more than one search engine.</li>
+            </ul>
+          </article>
+
+          <article class="worked-example reveal">
+            <h3>Website Evaluation Checklist</h3>
+            <ul>
+              <li><strong>Accuracy:</strong> Is the information correct?</li>
+              <li><strong>Credibility:</strong> Who wrote it? Are they reliable?</li>
+              <li><strong>Content:</strong> Does it match the topic?</li>
+              <li><strong>Current:</strong> Is it up to date?</li>
+              <li><strong>Functionality:</strong> Does the site work properly?</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="card-grid">
+          <article class="section-card accent-gold reveal">
+            <h3>Virtual Learning Environments and Open Learning Sites</h3>
+            <ul>
+              <li>VLEs support self-paced learning.</li>
+              <li>They allow access to lessons, exercises and discussions outside the classroom.</li>
+              <li>Examples of open learning sites include Khan Academy, Coursera, edX and Saylor.</li>
+            </ul>
+          </article>
+
+          <article class="section-card accent-deep reveal">
+            <h3>Blogs</h3>
+            <ul>
+              <li>A blog is a regularly updated website or web page that shares posts.</li>
+              <li>Blogs can be used by schools, clubs or individuals for news, reports and learning materials.</li>
+              <li>Basic steps: choose a platform, plan the content, create the layout, publish the post and invite comments.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">Quick Check</span>
+            <h2>Three Strong Revision Questions</h2>
+          </div>
+        </div>
+        <div class="question-list">
+          <details class="question-card reveal">
+            <summary>
+              <span class="question-title-wrap">
+                <span class="question-tag">Strand 3</span>
+                <span class="question-title">Differentiate internet and World Wide Web.</span>
+              </span>
+              <span class="question-toggle">Open</span>
+            </summary>
+            <div class="question-body">
+              <div class="question-prompt">
+                <p>Write one sentence for each term and show the difference clearly.</p>
+              </div>
+              <div class="question-answer">
+                <h4>Answer</h4>
+                <p>
+                  The internet is the global network that connects devices,
+                  whereas the World Wide Web is the collection of websites and
+                  web pages accessed through that network.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="question-card reveal">
+            <summary>
+              <span class="question-title-wrap">
+                <span class="question-tag">Strand 3</span>
+                <span class="question-title">What is the function of BCC in email?</span>
+              </span>
+              <span class="question-toggle">Open</span>
+            </summary>
+            <div class="question-body">
+              <div class="question-prompt">
+                <p>Give a direct answer and mention the hidden copy idea.</p>
+              </div>
+              <div class="question-answer">
+                <h4>Answer</h4>
+                <p>
+                  BCC sends a copy of an email to another recipient without
+                  showing that recipient's address to the main recipients.
+                </p>
+              </div>
+            </div>
+          </details>
+
+          <details class="question-card reveal">
+            <summary>
+              <span class="question-title-wrap">
+                <span class="question-tag">Strand 3</span>
+                <span class="question-title">State one threat and one protection method.</span>
+              </span>
+              <span class="question-toggle">Open</span>
+            </summary>
+            <div class="question-body">
+              <div class="question-prompt">
+                <p>Example: use interception and encryption.</p>
+              </div>
+              <div class="question-answer">
+                <h4>Answer</h4>
+                <p>
+                  Interception is a threat in which unauthorised people view
+                  data, and encryption is a protection method that changes data
+                  into coded form so outsiders cannot read it easily.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="inline-actions">
+          <a class="page-jump" href="questions.html">Open the full question bank for Strand 3 practice</a>
+          <a class="page-jump" href="strand-4.html">Continue to the even more detailed Strand 4 page</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Strand 3 deep dive complete. Study this, then move to Strand 4 for the
+      most detailed explanations.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
