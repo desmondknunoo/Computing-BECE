@@ -703,7 +703,7 @@ function renderQuestionBank() {
         const cardHtml = group.items
           .map(
             (item) => `
-              <details class="question-card" open>
+              <details class="question-card">
                 <summary>
                   <span class="question-title-wrap">
                     <span class="question-tag">${group.paper}</span>
