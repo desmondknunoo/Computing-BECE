@@ -937,7 +937,103 @@ table {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--teal);
-  font- குடும்ப: var(--display);
+  font-family: var(--display);
+}
+
+.document-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.document-card,
+.viewer-panel {
+  border-radius: var(--radius-md);
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-md);
+}
+
+.document-card {
+  grid-column: span 4;
+  padding: 2rem;
+}
+
+.document-card strong {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 1.35rem;
+  font-family: var(--display);
+  color: var(--ink);
+}
+
+.document-card p {
+  margin: 1rem 0 0;
+}
+
+.document-meta,
+.viewer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.document-badge,
+.viewer-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(8, 145, 178, 0.1);
+  color: var(--teal);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.document-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.viewer-panel {
+  padding: 2rem;
+}
+
+.viewer-note {
+  margin-top: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink-soft);
+  border: 1px solid var(--glass-border);
+}
+
+.document-frame-wrap {
+  margin-top: 1.5rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.document-frame {
+  display: block;
+  width: 100%;
+  height: min(78vh, 1100px);
+  border: 0;
+  background: #fff;
+}
+
+.document-frame--docx {
+  height: min(82vh, 1200px);
 }
 
 .empty-state {
@@ -994,6 +1090,10 @@ html.js .reveal.is-visible {
     grid-column: span 6;
   }
 
+  .document-card {
+    grid-column: span 6;
+  }
+
   .section-card {
     grid-column: span 12;
   }
@@ -1024,6 +1124,10 @@ html.js .reveal.is-visible {
     grid-column: span 12;
   }
 
+  .document-card {
+    grid-column: span 12;
+  }
+
   .hero-card,
   .hero-panel,
   .question-shell,
@@ -1036,6 +1140,11 @@ html.js .reveal.is-visible {
 
   .symbol-grid {
     grid-template-columns: 1fr;
+  }
+
+  .document-frame,
+  .document-frame--docx {
+    height: 70vh;
   }
 }
 

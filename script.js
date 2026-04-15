@@ -622,8 +622,10 @@ function setActiveTopNav() {
     const matchesStrand4 = href === "strand-4.html" && currentPage.startsWith("strand-4");
     const matchesStrand1 = href === "strand-1.html" && currentPage.startsWith("strand-1");
     const matchesStrand2 = href === "strand-2.html" && currentPage.startsWith("strand-2");
+    const matchesDocuments =
+      href === "documents.html" && (currentPage === "documents.html" || currentPage.startsWith("view-"));
 
-    if (matchesDirect || matchesStrand1 || matchesStrand2 || matchesStrand3 || matchesStrand4) {
+    if (matchesDirect || matchesStrand1 || matchesStrand2 || matchesStrand3 || matchesStrand4 || matchesDocuments) {
       link.classList.add("active");
     }
   });

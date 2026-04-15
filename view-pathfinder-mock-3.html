@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pathfinder Mock 3 Viewer</title>
+    <meta
+      name="description"
+      content="Embedded viewer for the Pathfinder Mock 3 Word document, rendered for web reading."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="site-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">BC</span>
+          <span class="brand-copy">
+            <strong>BECE Computing Revision</strong>
+            <span>Source document viewer</span>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="index.html">Revision Guide</a>
+          <a href="strand-1.html">Strand 1</a>
+          <a href="strand-2.html">Strand 2</a>
+          <a href="strand-3.html">Strand 3</a>
+          <a href="strand-4.html">Strand 4</a>
+          <a href="questions.html">Question Bank</a>
+          <a href="documents.html">Documents</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header hero">
+        <article class="hero-card reveal">
+          <span class="eyebrow">DOCX Viewer</span>
+          <h1>Pathfinder Mock 3</h1>
+          <p class="lead">
+            The original file is a Word document, so this viewer shows a
+            browser-friendly HTML rendering of it. You can still open the raw
+            DOCX file below whenever you need the source document itself.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="documents/pathfinder-mock-3.docx">Open Original DOCX</a>
+            <a class="button button--secondary" href="documents/pathfinder-mock-3.html">Open Rendered HTML</a>
+            <a class="button button--secondary" href="documents.html">Back to Documents</a>
+          </div>
+        </article>
+
+        <aside class="hero-panel reveal">
+          <h2>Viewer Details</h2>
+          <div class="viewer-meta">
+            <span class="viewer-badge">DOCX Source</span>
+            <span class="viewer-badge">HTML View</span>
+            <span class="viewer-badge">Mock 3</span>
+          </div>
+          <p class="lead">
+            The web panel below is rendered from the original
+            <code>.docx</code> file so it can display inside the site.
+          </p>
+        </aside>
+      </section>
+
+      <section class="question-shell reveal">
+        <div class="viewer-panel">
+          <h2>Document View</h2>
+          <p class="viewer-note">
+            Formatting may differ slightly from Microsoft Word because this is
+            the browser-rendered version of the original file.
+          </p>
+          <div class="document-frame-wrap">
+            <iframe
+              class="document-frame document-frame--docx"
+              src="documents/pathfinder-mock-3.html"
+              title="Pathfinder Mock 3 rendered DOCX viewer"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Use the HTML viewer for reading in the browser and the DOCX link when you
+      need the original Word file.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

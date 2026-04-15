@@ -14,6 +14,9 @@ Static revision website for Ghana BECE Computing, with the strongest coverage on
 
 - `index.html` is the landing page.
 - `questions.html` contains the full question bank and answers.
+- `documents.html` is the document hub for the syllabus and mock papers.
 - `styles.css` and `script.js` are the shared site assets.
+- `view-*.html` pages provide dedicated embedded document viewers.
+- `documents/` contains the deployed web copies of the PDFs and the DOCX render.
 - `vercel.json` adds lightweight headers for deployment.
-- `.vercelignore` keeps the source syllabus and mock documents out of the public deployment.
+- `.vercelignore` keeps the original source files out of the public deployment while the web copies in `documents/` remain deployable.
