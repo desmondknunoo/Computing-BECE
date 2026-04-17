@@ -1,0 +1,14 @@
+{
+  "name": "bece-computing-revision",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/site.js --bundle --format=iife --target=es2018 --outfile=script.js"
+  },
+  "dependencies": {
+    "@microsoft/clarity": "^1.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

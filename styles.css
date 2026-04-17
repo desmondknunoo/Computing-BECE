@@ -729,6 +729,38 @@ table {
   border-top: 1px solid var(--line);
 }
 
+.site-disclosure {
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.4rem;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.site-disclosure strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--ink);
+  font-family: var(--display);
+}
+
+.site-disclosure p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.footer-link,
+.site-disclosure a {
+  color: var(--teal);
+  font-weight: 700;
+}
+
+.policy-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
 /* Question Bank Specifics */
 .question-shell {
   border-radius: var(--radius-lg);
